@@ -518,7 +518,7 @@ if (version_compare(JVERSION, "6.0", "<")) {
 	class JDocumentRaw extends \Joomla\CMS\Document\RawDocument
 	{
 	}
-	class JDocumentRenderer extends \Joomla\CMS\Document\DocumentRenderer
+	abstract class JDocumentRenderer extends \Joomla\CMS\Document\DocumentRenderer
 	{
 	}
 	class JDocumentXml extends \Joomla\CMS\Document\XmlDocument
